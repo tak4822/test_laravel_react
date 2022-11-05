@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Button } from '@material-ui/core';
 
-function Example(): React.ReactElement {
+function Example() {
     return (
         <div className="container">
             <div className="row justify-content-center">
@@ -9,7 +10,8 @@ function Example(): React.ReactElement {
                     <div className="card">
                         <div className="card-header">Example Component</div>
 
-                        <div className="card-body">I'm an example component!</div>
+                        <div className="card-body">pages下に移動出来た？？</div>
+                        <Button color="secondary" variant="contained">Homeに遷移ボタン</Button>
                     </div>
                 </div>
             </div>
@@ -18,7 +20,3 @@ function Example(): React.ReactElement {
 }
 
 export default Example;
-
-if (document.getElementById('example')) {
-    ReactDOM.render(<Example />, document.getElementById('example'));
-}

@@ -13813,7 +13813,7 @@ function Example() {
             children: "Example Component"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
             className: "card-body",
-            children: "pages\u4E0B\u306B\u79FB\u52D5\u51FA\u6765\u305F\uFF1F\uFF1F"
+            children: "\u5C11\u3057\u306E\u5909\u66F4"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["default"], {
             color: "secondary",
             variant: "contained",

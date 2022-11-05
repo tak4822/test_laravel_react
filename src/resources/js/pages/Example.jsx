@@ -10,7 +10,7 @@ function Example() {
                     <div className="card">
                         <div className="card-header">Example Component</div>
 
-                        <div className="card-body">pages下に移動出来た？？</div>
+                        <div className="card-body">少しの変更</div>
                         <Button color="secondary" variant="contained">Homeに遷移ボタン</Button>
                     </div>
                 </div>

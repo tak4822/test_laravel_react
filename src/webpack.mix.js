@@ -1,5 +1,16 @@
 const mix = require('laravel-mix');
 
+
+
+mix.webpackConfig({
+    devServer: {
+        host: '0.0.0.0',
+        proxy: {
+        '*': 'http://localhost:8000'
+        }
+    }
+});
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management

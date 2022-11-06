@@ -5,21 +5,22 @@ import {
     Route,
     Routes,
   } from 'react-router-dom';
-import Example from './pages/Example';
+import Register from './pages/Register';
 import Home from './pages/Home';
+import Login from './pages/Login';
 
   function App() {
     return (
         <div>
             <Routes>
                 <Route path='/' exact element={<Home />} />
-                <Route path='/example' element={<Example />} />
+                <Route path='/register' element={<Register />} />
+                <Route path='/login' element={<Login />} />
             </Routes>
         </div>
     );
 }
 
-console.log("He;;p");
 ReactDOM.render((
     <BrowserRouter>
         <App />
